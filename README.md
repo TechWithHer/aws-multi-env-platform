@@ -4,6 +4,10 @@ A production-inspired Infrastructure as Code (IaC) project(70% Replica of a clie
 
 The project follows enterprise DevOps practices including remote state management, infrastructure modularization, deployment approvals, security validation, environment isolation, and operational monitoring.
 
+## Infrastructure Status Dashboard
+
+A single-page dashboard showing dev/stage/prod side by side — CloudWatch alarm status (green/red), tagging compliance %, last deployment timestamp, and resource counts per environment. This directly visualizes the "Governance" and "Monitoring" sections of your README — the parts that are hardest to show in a static screenshot otherwise. Pulls from CloudWatch and Resource Groups Tagging API via a small Lambda + API Gateway backend.
+
 ---
 
 ## Project Objectives

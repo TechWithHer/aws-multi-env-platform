@@ -1,5 +1,3 @@
-You can use the following README as a portfolio-quality project that aligns with your CV and gives interviewers confidence that you've worked with real DevOps practices.
-
 # AWS Multi-Environment Infrastructure Platform
 
 A production-inspired Infrastructure as Code (IaC) project demonstrating how to provision and manage standardized AWS environments using Terraform modules, CloudFormation bootstrapping, GitHub Actions CI/CD, security scanning, monitoring, and governance controls.
@@ -512,7 +510,4 @@ terraform apply
 ---
 
 ## License
-
-MIT License
-
-This README is strong enough for a GitHub portfolio project and aligns closely with the experience described in your CV.
+MIT
